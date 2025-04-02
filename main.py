@@ -5,6 +5,7 @@ import logging
 from handlers import router
 from database.models import make_table_movie
 
+
 async def main():
     logging.basicConfig(level=logging.INFO)
     make_table_movie()
@@ -15,3 +16,4 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
+
